@@ -1,0 +1,21 @@
+{
+  "name": "get-npm-version",
+  "version": "1.0.0",
+  "description": "A simple action to get the npm version of a package",
+  "main": "main.js",
+  "author": "Koi to Coco (github.com/koitococo)",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@actions/core": "^1.11.1"
+  },
+  "scripts": {
+    "build": "bun build main.ts --target node --outfile main.js --minify --production"
+  }
+}
