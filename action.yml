@@ -1,5 +1,5 @@
-name: 'Get package version'
-description: 'Get version from package.json'
+name: 'Get npm version'
+description: 'Get package version from package.json'
 branding:
   icon: package
   color: 'white'
